@@ -9,8 +9,6 @@ class Artist
 
   @@artists = []
 
-  def floorbar
-  end
 
   def initialize
     @@artists << self
