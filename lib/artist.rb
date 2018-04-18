@@ -1,6 +1,8 @@
 require 'pry'
 require_relative 'concerns/memorable.rb'
 require_relative 'concerns/findable.rb'
+require_relative 'concerns/paramable.rb'
+
 
 class Artist
   extend Memorable
@@ -29,6 +31,5 @@ class Artist
   def add_songs(songs)
     songs.each { |song| add_song(song) }
   end
-
 
 end
