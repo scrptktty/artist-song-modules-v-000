@@ -8,5 +8,4 @@ module Memorable
     @@songs.clear
   end
 
-
 end
